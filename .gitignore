@@ -1,0 +1,7 @@
+# IDE
+.vscode
+
+# BUILD
+
+builds/
+*.out
