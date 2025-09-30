@@ -5,3 +5,8 @@
 
 builds/
 *.out
+
+# EJECUCION
+
+*.png
+*.dot
