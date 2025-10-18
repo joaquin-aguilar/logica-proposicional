@@ -155,7 +155,7 @@ void mostrar_ventana_proposicional(GtkWindow *parent, const gchar *mensaje, gboo
     data->contrasenna = contrasenna;
     data->boton_destino = boton_destino;
 
-    g_print("Evaluando con contrasenna: '%s', tamanno: %i\n", data->contrasenna, strlen(data->contrasenna));
+    g_print("Evaluando con contrasenna: '%s', tamanno: %i\n", data->contrasenna, (int) strlen(data->contrasenna));
     
     g_signal_connect(boton, "clicked", G_CALLBACK(al_pulsar_ok), data);
 

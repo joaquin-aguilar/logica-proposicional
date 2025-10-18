@@ -3,7 +3,7 @@
 
 # BUILD
 
-builds/
+build
 *.out
 
 # EJECUCION
