@@ -15,7 +15,7 @@ enum
     CONTIENE_MAYUSCULAS,
     CONTIENE_NUMERICOS,
     CONTIENE_CARACTERES_ESPECIALES
-} FiltrosOp;
+};
 
 gboolean tamanyo_mayor_a(int a, int b); // P=(∣A∣ > b)
 gboolean tamanyo_menor_a(int a, int b); // P=(∣A∣ < b)
